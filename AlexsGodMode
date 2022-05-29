@@ -1,0 +1,17 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+
+Title = "Alex's Note";
+
+Text  = "Alex's Pro Admin (Paid) :D";})
+
+while true do
+
+		wait()game.Players.LocalPlayer.Chatted:connect(function(msg)
+
+if string.lower(msg):sub(1) ==";god" then
+
+	game.Players.LocalPlayer.Character.pvp:Destroy()
+
+	end
+
+end)
